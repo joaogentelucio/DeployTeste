@@ -8,15 +8,12 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 // Configurar o pipeline de requisição HTTP
-if (app.Environment.IsDevelopment())
+app.UseSwagger();
+app.UseSwaggerUI(options =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI(options =>
-    {
-        options.SwaggerEndpoint("/swagger/v1/swagger.json", "API V1");
-        options.RoutePrefix = ""; // Deixa o Swagger na raiz
-    });
-}
+    options.SwaggerEndpoint("/swagger/v1/swagger.json", "API V1");
+    options.RoutePrefix = ""; // Deixa o Swagger na raiz
+});
 
 app.UseHttpsRedirection();
 app.UseAuthorization();

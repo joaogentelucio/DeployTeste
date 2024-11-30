@@ -3,7 +3,7 @@
         "http": {
             "commandName": "Project",
             "environmentVariables": {
-                "ASPNETCORE_ENVIRONMENT": "Development"
+                "ASPNETCORE_ENVIRONMENT": "Production"
             },
             "dotnetRunMessages": true,
             "applicationUrl": "http://localhost:5247"
@@ -11,7 +11,7 @@
         "https": {
             "commandName": "Project",
             "environmentVariables": {
-                "ASPNETCORE_ENVIRONMENT": "Development"
+                "ASPNETCORE_ENVIRONMENT": "Production"
             },
             "dotnetRunMessages": true,
             "applicationUrl": "https://localhost:5248"
@@ -20,7 +20,7 @@
             "commandName": "IISExpress",
             "launchBrowser": true,
             "environmentVariables": {
-                "ASPNETCORE_ENVIRONMENT": "Development"
+                "ASPNETCORE_ENVIRONMENT": "Production"
             }
         },
         "Container (Dockerfile)": {
