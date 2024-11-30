@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "B25+KrBtCWjx1CrFxuOsq/eQMZwFuVGD0QZt1Skoccw=",
+  "Source": "DeployTeste",
+  "BasePath": "_content/DeployTeste",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
