@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\joaog\\Documents\\Github\\DeployTeste\\src\\DeployTeste\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{90D18647-B369-4934-8B08-2B989745E0EB}|DeployTeste.csproj|c:\\users\\joaog\\documents\\github\\deployteste\\src\\deployteste\\deployteste.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{90D18647-B369-4934-8B08-2B989745E0EB}|DeployTeste.csproj|solutionrelative:deployteste.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90D18647-B369-4934-8B08-2B989745E0EB}|DeployTeste.csproj|c:\\users\\joaog\\documents\\github\\deployteste\\src\\deployteste\\deployteste.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{90D18647-B369-4934-8B08-2B989745E0EB}|DeployTeste.csproj|solutionrelative:deployteste.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90D18647-B369-4934-8B08-2B989745E0EB}|DeployTeste.csproj|c:\\users\\joaog\\documents\\github\\deployteste\\src\\deployteste\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{90D18647-B369-4934-8B08-2B989745E0EB}|DeployTeste.csproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90D18647-B369-4934-8B08-2B989745E0EB}|DeployTeste.csproj|c:\\users\\joaog\\documents\\github\\deployteste\\src\\deployteste\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{90D18647-B369-4934-8B08-2B989745E0EB}|DeployTeste.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{90D18647-B369-4934-8B08-2B989745E0EB}|DeployTeste.csproj|c:\\users\\joaog\\documents\\github\\deployteste\\src\\deployteste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90D18647-B369-4934-8B08-2B989745E0EB}|DeployTeste.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,11 +34,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeployTeste",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\Github\\DeployTeste\\src\\DeployTeste\\DeployTeste.csproj",
+              "RelativeDocumentMoniker": "DeployTeste.csproj",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\Github\\DeployTeste\\src\\DeployTeste\\DeployTeste.csproj",
+              "RelativeToolTip": "DeployTeste.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-30T14:41:43.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DeployTeste.http",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\Github\\DeployTeste\\src\\DeployTeste\\DeployTeste.http",
+              "RelativeDocumentMoniker": "DeployTeste.http",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\Github\\DeployTeste\\src\\DeployTeste\\DeployTeste.http",
+              "RelativeToolTip": "DeployTeste.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-11-30T14:41:33.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\Github\\DeployTeste\\src\\DeployTeste\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\Github\\DeployTeste\\src\\DeployTeste\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-30T14:41:24.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\Github\\DeployTeste\\src\\DeployTeste\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\Github\\DeployTeste\\src\\DeployTeste\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-30T14:41:22.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\joaog\\Documents\\Github\\DeployTeste\\src\\DeployTeste\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -35,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\joaog\\Documents\\Github\\DeployTeste\\src\\DeployTeste\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
