@@ -1,0 +1,10 @@
+# Ignorar arquivos e pastas do Visual Studio
+.vs/
+*.vsidx
+*.suo
+*.cache
+
+# Ignorar diretórios de build
+bin/
+obj/
+

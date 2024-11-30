@@ -1,21 +1,24 @@
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection;
-
 var builder = WebApplication.CreateBuilder(args);
 
-// Adicionar serviços ao contêiner.
+// Configurar serviços
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configuração do pipeline de requisições HTTP.
-app.UseSwagger();
-app.UseSwaggerUI();
+// Configurar o pipeline de requisição HTTP
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI(options =>
+    {
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "API V1");
+        options.RoutePrefix = ""; // Deixa o Swagger na raiz
+    });
+}
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
 
 app.MapControllers();

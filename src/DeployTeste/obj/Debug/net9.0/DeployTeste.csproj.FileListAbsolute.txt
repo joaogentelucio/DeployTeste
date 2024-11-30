@@ -35,3 +35,4 @@ C:\Users\joaog\Documents\Github\DeployTeste\src\DeployTeste\obj\Debug\net9.0\ref
 C:\Users\joaog\Documents\Github\DeployTeste\src\DeployTeste\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\joaog\Documents\Github\DeployTeste\src\DeployTeste\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\joaog\Documents\Github\DeployTeste\src\DeployTeste\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\joaog\Documents\Github\DeployTeste\src\DeployTeste\obj\Debug\net9.0\DeployTeste.sourcelink.json
