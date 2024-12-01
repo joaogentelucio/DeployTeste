@@ -9,17 +9,18 @@ services:
     image: api_exemplo_render
     ports:
       - "8075:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - FirebirdConnection=database=/var/lib/firebird/data/SUPER.fdb;user=SYSDBA;password=masterkey;datasource=firebird;port=3050
     depends_on:
-      - firebird # Define que a API depende do serviço do Firebird
+      - firebird
 
   firebird:
-    build:
-      context: .
-      dockerfile: Dockerfile.firebird # O Dockerfile do Firebird que você vai criar
-    container_name: firebird_db
+    image: firebird/firebird:latest
+    container_name: firebird
     ports:
-      - "3050:3050"  # Porta padrão do Firebird
-    environment:
-      - FIREBIRD_PASSWORD=masterkey  # Senha do Firebird
+      - "3050:3050"
     volumes:
-      - ./Data/SUPER.fdb:/var/lib/firebird/data/SUPER.fdb  # Localização do banco de dados
+      - ./data/SUPER.fdb:/var/lib/firebird/data/SUPER.fdb
+    environment:
+      - FIREBIRD_PASSWORD=masterkey
