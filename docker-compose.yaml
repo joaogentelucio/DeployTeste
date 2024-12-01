@@ -9,3 +9,17 @@ services:
     image: api_exemplo_render
     ports:
       - "8075:8080"
+    depends_on:
+      - firebird # Define que a API depende do serviço do Firebird
+
+  firebird:
+    build:
+      context: .
+      dockerfile: Dockerfile.firebird # O Dockerfile do Firebird que você vai criar
+    container_name: firebird_db
+    ports:
+      - "3050:3050"  # Porta padrão do Firebird
+    environment:
+      - FIREBIRD_PASSWORD=masterkey  # Senha do Firebird
+    volumes:
+      - ./Data/SUPER.fdb:/var/lib/firebird/data/SUPER.fdb  # Localização do banco de dados

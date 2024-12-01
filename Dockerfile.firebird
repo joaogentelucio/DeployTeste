@@ -1,0 +1,11 @@
+# Usar a imagem oficial do Firebird
+FROM firebird/firebird:latest
+
+# Copiar o arquivo do banco de dados para o diretório correto do Firebird
+COPY SUPER.fdb /var/lib/firebird/data/SUPER.fdb
+
+# Definir a senha padrão (se necessário)
+ENV FIREBIRD_PASSWORD=masterkey
+
+# Expor a porta do Firebird (geralmente 3050)
+EXPOSE 3050

@@ -1,21 +1,40 @@
+using DeployTeste.Repositories;
+using System.Text;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Configurar serviços
+
+builder.Services.AddAuthorization();
+
+builder.Services.AddScoped<UsuariosRepository>();
+
+
+
+// Add services to the container
 builder.Services.AddControllers();
+
+// Swagger/OpenAPI configuration
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Configura??o de CORS
+builder.Services.AddCors(p => p.AddPolicy("corsapp", builder =>
+{
+    builder.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
+}));
+
 var app = builder.Build();
 
-// Configurar o pipeline de requisição HTTP
-app.UseSwagger();
-app.UseSwaggerUI(options =>
+if (app.Environment.IsDevelopment())
 {
-    options.SwaggerEndpoint("/swagger/v1/swagger.json", "API V1");
-    options.RoutePrefix = ""; // Deixa o Swagger na raiz
-});
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
+// Aplica??o do CORS
 app.UseHttpsRedirection();
+app.UseRouting();
+app.UseCors("corsapp");
 app.UseAuthorization();
 
 app.MapControllers();
