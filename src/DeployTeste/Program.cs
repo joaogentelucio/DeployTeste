@@ -16,7 +16,7 @@ builder.Services.AddSwaggerGen();
 // Configuração de CORS
 builder.Services.AddCors(p => p.AddPolicy("corsapp", builder =>
 {
-    builder.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
+    builder.WithOrigins("https://deployteste-9od7.onrender.com/api").AllowAnyMethod().AllowAnyHeader();
 }));
 
 var app = builder.Build();
