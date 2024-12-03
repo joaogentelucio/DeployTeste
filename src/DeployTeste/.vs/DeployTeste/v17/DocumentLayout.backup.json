@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\joaog\\Documents\\Github\\DeployTeste\\src\\DeployTeste\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90D18647-B369-4934-8B08-2B989745E0EB}|DeployTeste.csproj|c:\\users\\joaog\\documents\\github\\deployteste\\src\\deployteste\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{90D18647-B369-4934-8B08-2B989745E0EB}|DeployTeste.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{90D18647-B369-4934-8B08-2B989745E0EB}|DeployTeste.csproj|c:\\users\\joaog\\documents\\github\\deployteste\\src\\deployteste\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{90D18647-B369-4934-8B08-2B989745E0EB}|DeployTeste.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -27,32 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\Github\\DeployTeste\\src\\DeployTeste\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\joaog\\Documents\\Github\\DeployTeste\\src\\DeployTeste\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-02T22:25:49.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\joaog\\Documents\\Github\\DeployTeste\\src\\DeployTeste\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\joaog\\Documents\\Github\\DeployTeste\\src\\DeployTeste\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-12-01T14:33:23.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\joaog\\Documents\\Github\\DeployTeste\\src\\DeployTeste\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
